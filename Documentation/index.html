@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>IRIS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="assets/img/favicon.png">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">IRIS</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="./index.html">IRIS Overview</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>IRIS</h1>
+    <p>Welcome to IRIS.</p>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav">
+<li><a href="#overview"><i class="icon-chevron-right"></i> Template overview</a></li>
+<li><a href="#started"><i class="icon-chevron-right"></i> Get started</a></li>
+<li><a href="#sliders"><i class="icon-chevron-right"></i> Working With Sliders</a></li>
+<li><a href="#JavaScript"><i class="icon-chevron-right"></i>JavaScript initialization</a></li>
+        </ul>
+      </div>
+      <div class="span9">
+
+
+
+        <!-- Overview
+        ================================================== -->
+        <section id="overview">
+          <div class="page-header">
+            <h1>Overview</h1>
+          </div>
+          
+<p>Hello, firstly I would like to thank you for purchasing " IRIS - HTML Template ".</p>
+<p>If you have any questions that are beyond the scope of this help file, please feel free to email. </p>
+<p>Creator: Coyier</p>
+<p>Contact:<a href="mailto:ahmedeabbas@yahoo.com"> ahmedeabbas@yahoo.com</a></p>
+<p>Created On: 10/01/2014</p>
+
+        </section>
+
+
+
+        <!-- Get started
+        ================================================== -->
+        <section id="started">
+          <div class="page-header">
+            <h1>Get started</h1>
+          </div>
+          <div class="hero-unit">
+              <h4>Installation:</h4>
+              <p>IRIS is HTML template so there's no really "installation" required just unzip the main file you've downloaded from <a href="http://getbootstrap.com" target="_blank">wrapbootstrap</a> and after unziping you have your all template ready to be used.</p>
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Setting Up The Grid:</h4>
+              <p>Before starting to work deeper with this template, you'll need to know how to use template's grid, it's simple and easy to use. IRIS is being build using one of the most popular Framwork, Twitter bootstrap, which means your site container is 12-column grids wide.To make it work without problem you be using columns for everything . 	</p>
+          </div>
+          
+          <div class="hero-unit">
+            <h4>Working With Navigation:</h4>
+              <p>Navbars are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.</p>
+              <p>Your code should look like the following. </p>
+              
+              
+              <pre>
+              
+              &lt;div class="navbar navbar-default navbar-fixed-top"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="navbar-header"&gt;
+      &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt; &lt;span class="icon-bar"&gt;&lt;/span&gt; &lt;span class="icon-bar"&gt;&lt;/span&gt; &lt;span class="icon-bar"&gt;&lt;/span&gt; &lt;/button&gt;
+      &lt;a class="navbar-brand logo" href="index.html"&gt;Project name&lt;/a&gt; &lt;/div&gt;
+    &lt;div class="navbar-collapse collapse "&gt;
+      &lt;ul class="nav navbar-nav navbar-right"&gt;
+        &lt;li&gt;&lt;a href="#top"&gt;home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#services "&gt;Services&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#portfolio "&gt;portfolio&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#about"&gt;about&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#projects"&gt;projects&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#blog"&gt;blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#contact"&gt;contact&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            
+              </pre>
+              
+              <p>Menu CSS: </p>
+              
+            <p>Your code should look like the following. </p>              
+              
+              <pre>
+             
+.navbar-default {
+background-color: #fff;
+border-bottom: 1px solid #000;
+top: 0;
+left: 0;
+position: fixed;
+right: 0;
+z-index: 1030;
+margin-bottom: 20px;
+min-height: 50px;
+-webkit-transform: translateY(0%);
+-moz-transform: translateY(0%);
+transform: translateY(0%);
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+transition: all 0.5s;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+background: #000;
+color: #FFF;
+margin: 15px 5px;
+padding: 1px 5px 0
+}
+.navbar-default .navbar-nav > li > a {
+color: #000;
+font-size: 0.91em;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+margin:15px 5px;
+padding: 1px 5px 0
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+background-color: #515151;
+color: #FFF;
+}
+/**small menu**/
+.navbar-default .navbar-toggle {
+border-color: #2c2c2c;
+border: 0 none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #2c2c2c
+}
+.navbar-toggle .icon-bar {
+border-radius: 0;
+display: block;
+height: 4px;
+width: 30px
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #2c2c2c;
+border-radius: 0 0 0 0;
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+background-color: #303441
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+background-color: #FFF;
+}
+
+
+              </pre>
+            
+            
+          </div>
+
+        </section>
+
+
+
+        <!-- sliders
+        ================================================== -->
+        <section id="sliders">
+          <div class="page-header">
+            <h1> Working With Slider</h1>
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Flex slider </h4>
+              <p><img src="assets/img/1.jpg" alt="Blur Slide Show"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+              <pre>              
+             
+             
+&lt;div class="flexslider"&gt;
+          &lt;ul class="slides"&gt;
+            &lt;li&gt;&lt;img src="img/slider/1.jpg" alt="slider" /&gt;
+              &lt;p class="flex-caption"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;img src="img/slider/2.jpg"  alt="slider" /&gt;
+              &lt;p class="flex-caption"&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt; &lt;img src="img/slider/3.jpg"  alt="slider" /&gt;
+              &lt;p class="flex-caption"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt; &lt;img src="img/slider/4.jpg"  alt="slider" /&gt;
+              &lt;p class="flex-caption"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt; &lt;img src="img/slider/5.jpg"  alt="slider" /&gt;
+              &lt;p class="flex-caption"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt; &lt;img src="img/slider/6.jpg"  alt="slider" /&gt;
+              &lt;p class="flex-caption"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. &lt;/p&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+
+              </pre>
+              
+                <p>Your CSS code. </p>
+              
+              <pre>
+       .flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+outline: none;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.flexslider .slides > li {
+display: none;
+-webkit-backface-visibility: hidden;
+} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+width: 100%;
+display: block;
+}
+.flex-pauseplay span {
+text-transform: capitalize;
+}
+.slides:after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+html[xmlns] .slides {
+display: block;
+}
+* html .slides {
+height: 1%;
+}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+display: block;
+}
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {
+margin: 53px 0 0;
+position: relative;
+-webkit-border-radius: 4px;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+zoom: 1;
+}
+.flex-viewport {
+max-height: 2000px;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+transition: all 1s ease;
+}
+.loading .flex-viewport {
+max-height: 300px;
+}
+.flexslider .slides {
+zoom: 1;
+}
+.carousel li {
+margin-right: 5px
+}
+.flex-caption {
+background: transparent;
+color: #FFF;
+font-size: 2.8em;
+font-family: ostrich_sansmedium;
+letter-spacing: 2px;
+font-weight:bold;
+left: 5%;
+margin-bottom: 0;
+max-width: 50%;
+padding: 20px;
+position: absolute;
+text-transform: uppercase;
+bottom: 18%;
+z-index: 500;
+text-shadow: 3px 2px 0 rgba(0, 0, 0, 0.3)
+}
+/* Direction Nav */
+.flex-direction-nav a {
+background: url("../img/bg_direction_nav.png") no-repeat scroll 5px 0 #2c2c2c;
+cursor: pointer;
+display: block;
+height: 47px;
+margin: -20px 0 0;
+opacity: 0;
+position: absolute;
+text-indent: -9999px;
+top: 50%;
+width: 44px;
+}
+.flex-direction-nav .flex-next {
+background-position: -57px 0;
+right: 0;
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+}
+.flex-direction-nav .flex-prev {
+left: 0;
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+}
+.flexslider:hover .flex-next {
+opacity: 0.5;
+right: 30px;
+}
+.flexslider:hover .flex-prev {
+opacity: 0.5;
+left: 30px;
+}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+opacity: .7;
+}
+.flex-direction-nav .disabled {
+opacity: .3!important;
+filter:alpha(opacity=30);
+cursor: default;
+}
+.flex-caption {
+background: rgba(0, 0, 0, 0.5);
+}
+/* Control Nav */
+.flex-control-nav {
+width: 100%;
+position: absolute;
+bottom: -40px;
+text-align: center;
+display: none;
+}
+.flex-control-nav li {
+margin: 0 6px;
+display: inline-block;
+zoom: 1;
+*display: inline;
+}
+.flex-control-paging li a {
+width: 11px;
+height: 11px;
+display: block;
+background: #666;
+background: rgba(0, 0, 0, 0.5);
+cursor: pointer;
+text-indent: -9999px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-o-border-radius: 20px;
+border-radius: 20px;
+box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.flex-control-paging li a:hover {
+background: #333;
+background: rgba(0, 0, 0, 0.7);
+}
+.flex-control-paging li a.flex-active {
+background: #000;
+background: rgba(0, 0, 0, 0.9);
+cursor: default;
+}
+.flex-control-thumbs {
+margin: 5px 0 0;
+position: static;
+overflow: hidden;
+}
+.flex-control-thumbs li {
+width: 25%;
+float: left;
+margin: 0;
+}
+.flex-control-thumbs img {
+width: 100%;
+display: block;
+opacity: .7;
+cursor: pointer;
+}
+.flex-control-thumbs img:hover {
+opacity: 1;
+}
+.flex-control-thumbs .active {
+opacity: 1;
+cursor: default;
+}
+@media (min-width: 768px) {
+.flex-caption {
+font-size:1.5em;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3)
+}
+}
+@media (min-width: 320px) and (max-width: 769px) {
+.flex-caption {
+font-size:.9em;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3)
+}
+}
+ @media screen and (max-width: 860px) {
+.flex-direction-nav .flex-prev {
+left: 0;
+}
+.flex-direction-nav .flex-next {
+right: 0;
+}
+}
+
+
+         
+              </pre>
+              
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Portfolio Filter</h4>
+              <p><img src="assets/img/2.jpg" alt="Lean Slider"></p>
+              
+              <p>Your code should look like the following. </p>
+              <pre>
+		
+&lt;div id="portfolio" class="portfolio"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-md-12 col-sm-12"&gt;
+        &lt;div class=" container TitleSection"&gt;
+          &lt;header class="page-head"&gt;
+            &lt;h1&gt;Our Portfolio&lt;small&gt;Lorem ipsum dolor&lt;/small&gt;&lt;small&gt;Lorem ipsum dolor sit amet&lt;/small&gt;&lt;/h1&gt;
+          &lt;/header&gt;
+        &lt;/div&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris. aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-xs-12 col-md-12 col-sm-12"&gt;
+        &lt;section id="filter_header" class="clearfix portfolioFilter"&gt;
+          &lt;ul id="filters" class="option-set clearfix" data-option-key="filter"&gt;
+            &lt;li&gt;&lt;a href="#filter" data-option-value="*" class="selected"&gt;all&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#filter" data-option-value=".Logo_design"&gt;Logo Design&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#filter" data-option-value=".branding"&gt;Branding&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#filter" data-option-value=".copywriting"&gt;Copywriting&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#filter" data-option-value=".print"&gt;Print&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/section&gt;
+        &lt;div id="filter_container" class="clearfix portfolioContainer"&gt;
+          &lt;div class="element Logo_design copywriting" data-category="Logo_design"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/2.jpg" alt="filter" /&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element branding copywriting" data-category="branding"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/1.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element Logo_design copywriting" data-category="Logo_design"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/3.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element Logo_design copywriting" data-category="Logo_design"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/2.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element branding copywriting" data-category="branding"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/1.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element Logo_design copywriting" data-category="Logo_design"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/3.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element other print" data-category="other"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/2.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element copywriting" data-category="copywriting"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/3.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element copywriting" data-category="copywriting"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/1.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element Logo_design copywriting" data-category="Logo_design"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/3.jpg" alt="filter" /&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element branding copywriting" data-category="branding"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/1.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element Logo_design copywriting" data-category="Logo_design"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/2.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element Logo_design copywriting" data-category="Logo_design"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/1.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="element branding copywriting" data-category="branding"&gt;
+            &lt;div class="hexagon"&gt; &lt;a href="#"&gt; &lt;span class="mask"&gt;&lt;/span&gt; &lt;img src="img/2.jpg"  alt="filter"/&gt; &lt;/a&gt;
+              &lt;div class="portfolio-title"&gt;
+                &lt;h4&gt;John Doe&lt;span&gt;Art-Director&lt;/span&gt;&lt;/h4&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+              </pre>
+              
+             
+             <p>Your CSS code. </p>
+              
+              <pre>
+              
+          .portfolio {
+padding: 50px 0;
+border-bottom: 1px solid #000;
+}
+.portfolioFilter {
+margin: 25px 0 10px;
+padding: 10px 0;
+}
+.portfolioContainer .hexagon {
+margin:0 25px 25px 0
+}
+.hexagon h4 {
+font-family: aller_lightregular;
+font-size: 15px;
+text-transform: uppercase;
+}
+.isotope-item {
+z-index: 2;
+}
+.isotope-hidden.isotope-item {
+pointer-events: none;
+z-index: 1;
+}
+.isotope, .isotope .isotope-item { /* change duration value to whatever you like */
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+transition-duration: 0.8s;
+}
+.isotope {
+-webkit-transition-property: height, width;
+-moz-transition-property: height, width;
+transition-property: height, width;
+}
+.isotope .isotope-item {
+-webkit-transition-property: -webkit-transform, opacity;
+-moz-transition-property: -moz-transform, opacity;
+transition-property: transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+-webkit-transition-duration: 0s;
+-moz-transition-duration: 0s;
+-ms-transition-duration: 0s;
+-o-transition-duration: 0s;
+transition-duration: 0s;
+}
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+-webkit-transition: none;
+-moz-transition: none;
+-ms-transition: none;
+-o-transition: none;
+transition: none;
+}
+#filter_container {
+padding: 5px;
+margin-bottom: 20px;
+}
+#filter_header {
+padding-bottom: 1.0em;
+}
+#filter_header h3 {
+margin-bottom: 0.2em;
+font-size: 15px;
+}
+#filter_header h4 {
+font-weight: bold;
+}
+#filter_header ul {
+margin: 0;
+list-style: none;
+padding:0
+}
+#filter_header ul ul {
+margin-left: 1.5em;
+}
+#filter_header li {
+float: left;
+margin:0 0.5em 0 0;
+}
+#filter_header li a {
+color: #000;
+font-size: 0.91em;
+padding: 1px 5px 0;
+text-transform: uppercase;
+}
+#filter_header li a.selected {
+color: #fff;
+text-shadow: none;
+background-color:#000
+}
+
+              </pre>
+             
+          </div>
+          
+                  
+          
+
+        </section>
+
+
+
+        <!-- JavaScript initialization
+        ================================================== -->
+        <section id="JavaScript">
+          <div class="page-header">
+            <h1>JavaScript initialization</h1>
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Flex slider </h4>
+              <pre>
+ $(document).ready(function(){
+    $('.flexslider').flexslider({
+		        animation: "fade",
+		        start: function(slider){
+		          $('body').removeClass('loading');
+		        }
+			});
+});
+
+
+              </pre>
+              
+              <h4>Portfolio Filter</h4>
+              <pre>
+           $(function(){      
+      var $container = $('#filter_container');
+      $container.isotope({
+        itemSelector : '.element'
+      });  
+      var $optionSets = $('#filter_header .option-set'),
+          $optionLinks = $optionSets.find('a');
+      $optionLinks.click(function(){
+        var $this = $(this);
+        // don't proceed if already selected
+        if ( $this.hasClass('selected') ) {
+          return false;
+        }
+        var $optionSet = $this.parents('.option-set');
+        $optionSet.find('.selected').removeClass('selected');
+        $this.addClass('selected');
+        // make option object dynamically, i.e. { filter: '.my-filter-class' }
+        var options = {},
+            key = $optionSet.attr('data-option-key'),
+            value = $this.attr('data-option-value');
+        // parse 'false' as false boolean
+        value = value === 'false' ? false : value;
+        options[ key ] = value;
+        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+          // changes in layout modes need extra logic
+          changeLayoutMode( $this, options )
+        } else {
+          // otherwise, apply new options
+          $container.isotope( options );
+        }        
+        return false;
+      });      
+    });
+              </pre>
+                 
+           
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Google Map</h4>
+              <pre>
+            $(document).ready(function() {	
+		 var map;
+      map = new GMaps({
+        el: '#map',
+        lat: -12.043333,
+        lng: -77.028333,
+        zoomControl : true,
+        zoomControlOpt: {
+            style : 'SMALL',
+            position: 'TOP_LEFT'
+        },
+        panControl : true,
+        streetViewControl : false,
+        mapTypeControl: true,
+        overviewMapControl: false
+      });
+});
+              </pre>
+              
+              <h4>contact page validator</h4>
+              <pre>
+             $(document).ready(function() { 
+	$("#passion_form").validate();	
+    });
+              </pre>
+                      
+             
+              
+                <h4>Nice Scroll Plugin</h4>
+              <pre>
+               $(document).ready(function() { 
+$("html").niceScroll();  // The document page (body)
+		$(".scroller").getNiceScroll().resize()    });
+              </pre>
+              
+          </div>
+
+   
+
+        </section>
+        
+      
+      </div>
+    </div>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>Designed and built with all the love in the world by <a href="https://wrapbootstrap.com/user/Ahmedeabbas" target="_blank">Coyier</a> .</p>
+      </div>
+    </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap-scrollspy.js"></script>    
+<script src="assets/js/bootstrap-affix.js"></script>
+<script src="assets/js/application.js"></script>
+
+  </body>
+</html>
